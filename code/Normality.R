@@ -1,0 +1,9 @@
+a=c(8,7,6,2,7,0,0,5)
+b=c(26,9,11,3,17,1,1,9)
+shapiro.test(a)
+shapiro.test(b)
+?shapiro.test
+qqnorm(a)
+qqline(a)
+qqnorm(b)
+qqline(b)
